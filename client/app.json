@@ -1,0 +1,22 @@
+{
+	"name": "SSMG",
+	"displayName": "SSMG UK",
+	"expo": {
+		"name": "SSMG",
+		"slug": "SSMG",
+		"orientation": "portrait",
+		"android": {
+			"package": "com.flcuk.ssmg",
+			"versionCode": 1,
+			"useNextNotificationsApi": true,
+			"permissions": ["NOTIFICATIONS"],
+			"googleServicesFile": "./google-services.json"
+		},
+		"icon": "./src/assets/images/ssmg-logo.png",
+		"version": "1.1.0",
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"bundleIdentifier": "com.flcuk.ssmg"
+		}
+	}
+}
